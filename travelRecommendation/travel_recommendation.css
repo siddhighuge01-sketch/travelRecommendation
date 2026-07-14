@@ -73,3 +73,39 @@ nav button{
     width:200px;
     text-align:center;
 }
+.contact{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:80px;
+    color:white;
+}
+
+.contact-text h1{
+    font-size:60px;
+}
+
+form{
+    background:rgba(0,0,0,0.5);
+    padding:30px;
+    border-radius:10px;
+    width:350px;
+}
+
+form input,
+form textarea{
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+}
+
+form button{
+    width:100%;
+    padding:12px;
+    background:teal;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
